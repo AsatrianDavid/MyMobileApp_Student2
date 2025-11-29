@@ -27,3 +27,6 @@ MyMobileApp_Student2/
 - GitHub
 
 ## Зміни для практичної роботи
+
+## Практична робота №1.5
+Зміни для pull request.
