@@ -25,3 +25,5 @@ MyMobileApp_Student2/
 - Swift, Xcode
 - Git
 - GitHub
+
+## Зміни для практичної роботи
