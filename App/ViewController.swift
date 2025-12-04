@@ -1,6 +1,6 @@
-import UIKit
+import Foundation
 
 // Placeholder for main iOS ViewController
-class ViewController: UIViewController {
+class ViewController {
     
 }
