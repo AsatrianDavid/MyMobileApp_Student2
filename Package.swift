@@ -12,11 +12,13 @@ let package = Package(
     targets: [
         .executableTarget(
             name: "MyMobileApp_Student2",
-            path: "."
+            path: ".",
+            exclude: ["Tests"]
         ),
         .testTarget(
             name: "MyMobileApp_Student2Tests",
-            dependencies: ["MyMobileApp_Student2"]
+            dependencies: ["MyMobileApp_Student2"],
+            path: "Tests/MyMobileApp_Student2Tests"
         ),
     ]
 )
