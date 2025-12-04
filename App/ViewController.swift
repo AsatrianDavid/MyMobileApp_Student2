@@ -1,1 +1,6 @@
-"// Placeholder for main iOS ViewController" 
+import UIKit
+
+// Placeholder for main iOS ViewController
+class ViewController: UIViewController {
+    
+}
