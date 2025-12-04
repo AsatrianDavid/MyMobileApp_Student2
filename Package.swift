@@ -16,8 +16,7 @@ let package = Package(
         ),
         .testTarget(
             name: "MyMobileApp_Student2Tests",
-            path: "Tests/MyMobileApp_Student2Tests",
-            exclude: ["test_example.txt"]
+            dependencies: ["MyMobileApp_Student2"]
         ),
     ]
 )
