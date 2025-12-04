@@ -1,4 +1,4 @@
- // swift-tools-version: 6.0
+// swift-tools-version: 6.0
 import PackageDescription
 
 let package = Package(
@@ -16,7 +16,8 @@ let package = Package(
         ),
         .testTarget(
             name: "MyMobileApp_Student2Tests",
-            path: "Tests"
+            path: "Tests/MyMobileApp_Student2Tests",
+            exclude: ["test_example.txt"]
         ),
     ]
 )
